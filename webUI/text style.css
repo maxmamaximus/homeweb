@@ -1,0 +1,22 @@
+
+
+.text1-effect  {                          /*class .text1-effectจะทำงานตลอดเวลาเพื่อควบคุมการแสดงผลออกมาตลอดเวลา*/
+    animation: fadeAndScale 2s alternate;    
+    position: absolute ;                     /*ทำให้ตัวอักษรลอยอยู่ด้านบนสุด แต่ทำให้ฟังก์ชั่น hover manual-btn ไม่ทำงาน*/
+    text-align: center;                      /*เพราะมีวัสถุซ้อนอยู่บน layer ของรูปภาพ 2 วัสถุ ซึ่งก็เป็น layer ของ navigation-manual และ */
+    color: blueviolet;                     /*layer ของ class="text1-effect ซึ่งเป็นข้อความและมีขอบเขตในแนวตั้งตลอดด้านล่างจดด้านบนของหน้าเว็บ*/
+    height: 1000px;                          /*ดังนั้น ถ้าเราเอาเม้าไปชี้บนปุ่มของ navigation-manual มันจึงไม่ตอบสนอง เพราะมันถูกบังเอาไว้ด้วยพื้นผิวของ*/
+    font-size: 60px;                         /*ข้อความ ทำให้เราชี้เม้าส์โดนข้อความแทน*/
+    opacity: 90%  ;          
+    text-shadow: 2px 2px 2px #333;              
+} 
+@keyframes fadeAndScale {
+    from {
+        opacity: 0;
+        transform: scale3d(.5, .5, 1);       /*ถ้าต้องการให้ตัวอักษรสรายตัวได้และสัมพันธ์กับรูปที่เลื่อนไป ต้องใส่การตรวจสอบปุ่ม*/ 
+    }                                        /*และสร้าง class หรือ fungtionมารับการทำงานตามเงื่อนไขที่ต้องการ*/
+    to {
+        opacity:  3;
+        transform: scale3d(1, 1, 1);      
+    }
+}

@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Almar Tech Co.,LTD</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CLato%7CKalam:300,400,700">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-bell">
+          <div class="cssload-circle">
+            <div class="cssload-inner0"></div>
+          </div>
+          <div class="cssload-circle">
+            <div class="cssload-inner0"></div>
+          </div>
+          <div class="cssload-circle">
+            <div class="cssload-inner0"></div>
+          </div>
+          <div class="cssload-circle">
+            <div class="cssload-inner0"></div>
+          </div>
+          <div class="cssload-circle">
+            <div class="cssload-inner0"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page">
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="100px" data-xl-stick-up-offset="100px" data-xxl-stick-up-offset="100px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <!--Brand--><a class="brand" href="../"><img class="brand-logo-dark" src="images/almarlogo_563x184.png" alt="" width="140" height="46"/><img class="brand-logo-light" src="images/almarlogo_563x184.png" alt="" width="140" height="46"/></a>
+                  </div>
+                </div>
+                <div class="rd-navbar-nav-wrap">
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="../">Home</a>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Product & Service</a>
+                      <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="what-we-offer.html">What We Offer</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="our-team.html">Our Team</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="testimonials.html">Testimonials</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="pricing-list.html">Pricing List</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="rd-nav-item"><a class="rd-nav-link" href="grid-blog.html">About us</a>
+                      <ul class="rd-menu rd-navbar-dropdown">
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="grid-blog.html">Grid Blog</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="blog-list.html">Blog List</a>
+                        </li>
+                        <li class="rd-dropdown-item"><a class="rd-dropdown-link" href="blog-post.html">Blog Post</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+
+                </div>
+                <div class="rd-navbar-main-element">
+                <ul class="list-inline list-social list-inline-xl">
+                  <li class="p-0 m-0"><a href="#" style="color: #00b900 !important"><i class="lab la-line" style=" font-size: 48px;"></i></a></li>
+                  <li class="p-0 m-0"><a href="#" style="color: #1877f2 !important"><i class="lab la-facebook-square" style="font-size: 48px;"></i></a></li>
+                  <li class="p-0 m-0"><a class="rd-nav-link" href="tel:0618265705"><i class="las la-phone" style="font-size: 40px;"></i>061-826-5705</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Swiper-->
+      <section class="section swiper-container swiper-slider swiper-slider-1" data-loop="true">
+        <div class="swiper-wrapper context-dark text-center">
+          <div class="swiper-slide" data-slide-bg="images/design_circuit.png">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <h4 class="swiper-title-3" data-caption-animate="fadeInLeft" data-caption-delay="200">Welcome to Almar Tech</h4>
+                <h1 class="swiper-title-1" data-caption-animate="fadeScale" data-caption-delay="100">Design as your wish</h1>
+                <h3 class="swiper-title-2" data-caption-animate="fadeInRight" data-caption-delay="200">รับออกแบบวงจรอิเล็กทรอนิกส์</h3>
+                <div class="button-wrap" data-caption-animate="fadeInUp" data-caption-delay="300"><a class="button button-lg button-shadow-3 button-secondary button-zakaria" href="#">รายละเอียด</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-slide-bg="images/repair.png">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <h4 class="swiper-title-3" data-caption-animate="fadeInLeft" data-caption-delay="200">Fix it</h4>
+                <h1 class="swiper-title-1" data-caption-animate="fadeScale" data-caption-delay="100">Repair & rework</h1>
+                <h3 class="swiper-title-2" data-caption-animate="fadeInRight" data-caption-delay="200">รับซ่อมบอร์ดอิเล็กทรอนิกส์ในโรงงานอุตสาหกรรม</h3>
+                <div class="button-wrap" data-caption-animate="fadeInUp" data-caption-delay="300"><a class="button button-lg button-shadow-3 button-secondary button-zakaria" href="#">>รายละเอียด</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-slide-bg="images/embedded.png">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <h4 class="swiper-title-3" data-caption-animate="fadeInLeft" data-caption-delay="200">Coding</h4>
+                <h1 class="swiper-title-1" data-caption-animate="fadeScale" data-caption-delay="100">Embedded & Web develop</h1>
+                <h3 class="swiper-title-2" data-caption-animate="fadeInRight" data-caption-delay="200">รับเขียนโปรแกรม ไมโครคอนโทรลเลอร์ และ Website</h3>
+                <div class="button-wrap" data-caption-animate="fadeInUp" data-caption-delay="300"><a class="button button-lg button-shadow-3 button-secondary button-zakaria" href="#">>รายละเอียด</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" data-slide-bg="images/automation.png">
+            <div class="swiper-slide-caption section-md">
+              <div class="container">
+                <h4 class="swiper-title-3" data-caption-animate="fadeInLeft" data-caption-delay="200">Improve</h4>
+                <h1 class="swiper-title-1" data-caption-animate="fadeScale" data-caption-delay="100">Automation system desing</h1>
+                <h3 class="swiper-title-2" data-caption-animate="fadeInRight" data-caption-delay="200">รับออกแบบระบบอัตโนมัติ IOT and Auto test system</h3>
+                <div class="button-wrap" data-caption-animate="fadeInUp" data-caption-delay="300"><a class="button button-lg button-shadow-3 button-secondary button-zakaria" href="#">>รายละเอียด</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Swiper Pagination-->
+        <div class="swiper-pagination"></div>
+        <!-- Swiper Navigation-->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </section>
+      <!-- About Us-->
+      <section class="section section-inset-2 bg-default text-md-left">
+        <div class="container">
+          <div class="row row-30 align-items-center justify-content-center justify-content-xl-between">
+            <div class="col-sm-6 col-md-5 col-lg-6 wow fadeInLeft">
+            </div>
+            <div class="col-md-7 col-lg-6 col-xl-5">
+              <h4 class="title-style-1 wow fadeInRight">A Few Words About Our Service</h4>
+              <h2 class="wow fadeInRight" data-wow-delay=".1s">About us</h2>
+              <p class="offset-top-md-20 wow fadeInRight" data-wow-delay=".2s">รับออกแบบ วงจรอิเล็กทรอนิกส์ ไมโครคอนโทรลเลอร์ โปรแกรม ระบบโอโตเมชั่น รับจัดหาอะไหล่อิเล็กทรอนิกส์ และ ซ่อมบอร์ดอิเล็กทรอนิกส์ในโรงงานอุตสาหกรรม</p>
+              <div class="group-xl group-middle d-md-flex justify-content-md-between wow fadeInRight" data-wow-delay=".3s">
+                <div>
+                  <div class="group-xl group-middle"><a class="button button-sm button-icon-3 button-secondary button-zakaria" href="about-us.html"><span class="mdi mdi-arrow-right"></span></a>
+                    <div class="team-navy">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services-->
+      <section class="parallax-container" data-parallax-img="images/parallax-6.jpg">
+        <div class="parallax-content section-xxl context-dark">
+          <div class="container">
+            <div class="row row-30 box-ordered">
+              <div class="col-sm-6 col-lg-3 wow fadeInLeft" data-wow-delay=".3s">
+                <article class="box-icon-modern">
+                  <div class="box-icon-modern-header">
+                    <div class="box-icon-modern-svg">
+                    </div>
+                  </div>
+                  <h4 class="box-icon-modern-title"><a href="#">Electroic circuit design</a></h4>
+                  <p class="box-icon-modern-text">ออกแบบวงจรอิเล็กทรอนิกส์ ไมโครคอนโทรลเลอร์ ให้ได้ตามความต้องการของคุณ เรามึประสบการ์ณ กว่า 10 ปี ในการพัฒนาวงจรอิเล็กทรอนิกส์ และ ไมโครคอนโทรลเลอร์</p>
+                </article>
+              </div>
+              <div class="col-sm-6 col-lg-3 wow fadeInLeft" data-wow-delay=".2s">
+                <article class="box-icon-modern">
+                  <div class="box-icon-modern-header">
+                    <div class="box-icon-modern-svg">
+                    
+                    </div>
+                  </div>
+                  <h4 class="box-icon-modern-title"><a href="#">Repair & Rework</a></h4>
+                  <p class="box-icon-modern-text">รับซ่อมวงจรอิเล็กทรอนิกส์ในโรงงานอุตสาหกรรม รวมทั้ง PLC Motor drive และ Inverter</p>
+                </article>
+              </div>
+              <div class="col-sm-6 col-lg-3 wow fadeInLeft" data-wow-delay=".1s">
+                <article class="box-icon-modern">
+                  <div class="box-icon-modern-header">
+                    <div class="box-icon-modern-svg">
+                    </div>
+                  </div>
+                  <h4 class="box-icon-modern-title"><a href="#">Automation</a></h4>
+                  <p class="box-icon-modern-text">รับออกแบบระบบอัตโนมัติ ในระบบ อุตสาหกรรม และ ระบบอัตโนมัติในการทดสอบงานอิเล็กทรอนิกส์</p>
+                </article>
+              </div>
+              <div class="col-sm-6 col-lg-3 wow fadeInLeft">
+                <article class="box-icon-modern">
+                  <div class="box-icon-modern-header">
+                    <div class="box-icon-modern-svg">
+                    </div>
+                  </div>
+                  <h4 class="box-icon-modern-title"><a href="#">IOT & Web design</a></h4>
+                  <p class="box-icon-modern-text">รับออกแบบระบบ IOT เพื่อใช้ในการ Monitor และ คอนโทรลระบบผ่าน Internet รวมทั้ง รับออกแบบเว็บไซต์</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="section footer-classic">
+        <div class="footer-classic-body section-lg">
+          <div class="container">
+            <div class="row row-40 row-md-50 justify-content-xl-between">
+              <div class="col-sm-6 col-lg-4 col-xl-3 wow fadeInRight">
+                 <div class="footer-classic-brand">
+                  <!--Brand--><a class="brand" href="../"><img class="brand-logo-dark" src="images/almarlogo_563x184.png" alt="" width="140" height="46"/><img class="brand-logo-light" src="images/almarlogo_563x184.png" alt="" width="140" height="46"/></a>
+                </div>
+                <!-- <ul class="list-schedule">
+                  <li><span>Everyday:</span><span>12:00 AM - 12:00 PM</span></li>
+                </ul> -->
+                <div class="footer-classic-social">
+                  <div class="group-lg group-middle">
+                    <!-- <p>Get Social</p>
+                    <div>
+                      <ul class="list-inline list-social list-inline-sm">
+                        <li><a class="icon mdi mdi-facebook" href="#"></a></li>
+                        <li><a class="icon mdi mdi-twitter" href="#"></a></li>
+                        <li><a class="icon mdi mdi-instagram" href="#"></a></li>
+                        <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
+                      </ul>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-6 col-xl-6 wow fadeInRight" data-wow-delay=".3s">
+                <h4 class="footer-classic-title">Contacts</h4>
+                <ul class="contacts-creative">
+                  <li>
+                    <div class="unit unit-spacing-sm flex-column flex-md-row">
+                      <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
+                      <div class="unit-body"><a href="#">189/355 เคซีพาร์ควิวล์ ซอย C13 ถ.บางพลี-ตำรุ <br/>ต.แพรกษาใหม่ อ.เมือง จ.สมุทรปราการ <br/> 10280</a></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit unit-spacing-sm flex-column flex-md-row">
+                      <div class="unit-left"><span class="icon mdi mdi-phone"></span></div>
+                      <div class="unit-body"><a href="tel:0618265705">061-826-5705</a></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit unit-spacing-sm flex-column flex-md-row">
+                      <div class="unit-left"><span class="icon mdi mdi-email-outline"></span></div>
+                      <div class="unit-body"><a href="/cdn-cgi/l/email-protection#1437"><span class="__cf_email__" data-cfemail="137a7d757c53727f7e72616776707b3d707c7e">[email&#160;protected]</span></a></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-classic-panel">
+          <div class="container">
+            <div class="row row-10 align-items-center justify-content-sm-between">
+              <div class="col-md-auto">
+                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>Almar Tech CO.,LTD</span><span>.&nbsp; All rights reserved.</span></p>
+              </div>
+              <div class="col-md-auto order-md-1"><a href="terms-of-use.html">Privacy Policy</a></div>
+              <div class="col-md-auto">
+                <!-- <div class="group-sm group-middle"><img src="images/payment-1-45x15.png" alt="" width="45" height="15"/><img src="images/payment-2-46x28.png" alt="" width="46" height="28"/><img src="images/payment-3-62x17.png" alt="" width="62" height="17"/>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

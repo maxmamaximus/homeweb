@@ -1,0 +1,115 @@
+body{
+    margin: 0;                      /*เป็นการกำหนดขนาดหน้าเว็บและคุณสมบัติของพื้นหลัง */
+    padding: 0;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #238379;
+}
+
+.slider{                                                         /*เป็นการกำหนดกรอบของรูปภาพที่เท่ากับความกว้างของจอพอดีและคุณสมบัติอื่นใน class slider*/
+    width: 1583px;                                               /* .slider คือการเลือกกำหนดคุณสมบัติลงในclass slider*/
+    height: 1500px;                                              /*ถ้ามีชื่อหรือ tag อยู่หน้า .จะหมายถึงการกำหนดคุณสมบัติ*/ 
+    overflow: hidden; /*บรรทักนี้จะตัดภาพที่ล้นกรอบ ที่กำหนดออกไป*/     /*ให้กับกลุ่มที่มีชื่อด้านหน้าของ . ท้ังกลุ่ม */ 
+    margin-top: 100px;
+    border-radius: 10px;
+}   
+.slides{                 /*เป็นกำหนดกรอบของรูปภาพที่เรียงต่อกันตามแนวนอน5รูป ที่อยู่ใน class slides และอยู่ภายใน class sliderอีกทีนึง*/
+    width: 500%;         /*กำหนดความกว้างของรูปทั้ง5รูปที่เรียงต่อกันตามแนวนอน ให้เท่ากับ5เท่าของความกว้างหน้าจอ(100%คือ = 1เท่าของหน้าจอ)*/
+    height: 400px;       /*กำหนดความสูงจากด้านล่างของหน้าเว็บ*/
+    display: flex;       /*บรรทัดนี้เป็นการกำหนดให้รูปเรี่ยงต่อกันในแนวนอน*/
+}
+
+.slides input{           /* codeในปีกกานี้จะไม่ให้จุดวงกลมที่อยู่ใน crass slides-input แสดงผลออกมา*/
+    display: none;       /*codeในปีกกานี้เป็นการกำหนดคุณสมบัติให้กับ class slides ลงไปที่วัตถุ input*/
+}
+.slide{                  /*code ในปีกกานี้จะกำหนดตคุณสมบัติให้กับรูปภาพที่เรียงต่อกัน5รูปเลื่อนไปทางขวา */
+    width: 20%;          /* ครั้งละ 20% เมื่อถูกโปรแกรมเรียกใช้*/
+    transition: 6s;      /*ค่าเวลานี้จะทำให้ภาพไหลเร็วถ้ามีค่าน้อย*/
+}
+.slide img{              /*code ในปีกกานี้เป็นการกำหนดคุณสมบัติลงไปในรูปภาพทั้งหมด5รูป ใน crass slide โดยลงไปที่วัตถุ img ของ class*/
+    width: 1583px;       /* บรรทัดนี้กำหนดขนาดความกว้างของภาพ*/
+    height: 900px;       /* บรรทัดนี้กำหนดขนาดความสูงของภาพ*/
+}
+
+.navigation-manual{      /* code ในปีกกานี้กำหนดคุณสมบัติให้กับ class navigation-manual*/
+    position: absolute;  /* ซึ่งใน class นี้จะเป็นรูปปุ่มวงกลมเล็กๆที่ประกาศไว้ใน HTML ทั้งหมด5ปุ่ม*/
+    width: 1583px;        /* 2บรรทัดด้านล่างนี้จะกำหนดตำแหน่ง fungtion navigation-manual ในหน้าเว็บ*/
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;  /*บรรทัดนี้จะเป็น center ของบรรทัด width: 1583px ของ class navication-manual  เท่านั้น*/
+    z-index: 1;               /*ปัองกันการทับกันของlayerที่อยู่ในช้นเดียวกัน*/
+}
+
+.manual-btn{                       /*code ในปีกกานี้จะกำหนดคุณสมบัติ(แบบไม่มีเงื่อนไข)ให้กับ class manual-btn ที่อยู่ภายใน class navigation-manual อีกที */
+    border: 2px solid #40D3DC;   /* ซึ่งใน class นี้จะเป็นปุ่มวงกลม5ปุ่มอีกชุดนึงที่ประกาศไว้ใน HTML เช่นกัน*/
+    padding: 5px;                  /*เมื่อclass-btn ถูกเรียกใช้งานโดยการ click ที่ปุ่มวงกลมบนหน้าเว็บ ปุ่มก็จะค่อยๆเปลี่ยนสีไปเป็นสี#40D3DC ภายในเวลา1วินาที*/
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){        /*เป็นการใช้ Pseudo-classes เช่น :not และ:last-child เพื่อกำหนดเงื่อนไขในการเข้าถึงวัตถุปุ่ม5ปุ่ม*/  
+    margin-right: 40px;              /*เพื่อแยกปุ่มทั้ง5ปุ่มให้ห่างกัน 40px*/
+}
+
+.manual-btn:hover{                   /*ใส่สีลงในปุ่มตอนชี้เม้า*/
+    background: #40d3dc;
+}
+#radiol:checked ~ .first{            /*ทำการจับคู่ให้ปุ่ม radio1กับ classของรูปทั้ง5รูป ให้ทำงานไปพร้อมก้นโดย radio1จะทำงานโดยการ */
+    margin-left: 0;                  /*เข้าไปทำงานใน class mamual-btn และ manual-btn:hover 1รอบ ,ส่วน.firstเข้าไปทำงานใน class .slide 1รอบ*/
+}
+
+#radio2:checked ~ .first{            /*เฝ้าคอย รับ input จากการ click mouse และการผ่านเข้ามาทำงานตามเสต็ปของโปรแกรมว่าผ่านมาถึง id radio2 รึยัง  ถ้าได้รับ input หรือ step มาถึงก็จะ */
+    margin-left: -20%;               /*ดึงรูปทั้งหมด4รูปให้เลื่อนไปทางซ้ายพร้อมกัน เพราะ ~ .first เป็นคำสั่งเลือก3รูปใน class ยกเว้น2รูปแรก */
+}
+
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+#radio5:checked ~ .first{
+    margin-left: -80%;
+}
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 1583px;
+    justify-content: center;
+    margin-top: 860px;
+}
+
+.navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+}
+#radio5:checked ~ .navigation-auto .auto-btn5{
+    background: #40D3DC;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechatronic Service Repair</title>
+    <link rel="stylesheet" href="mechanic style.css">
+    <link rel="stylesheet" href="text style.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            
+            <input type="radio" onmouseover="stopShow()" name="radio-btn" id="radio1">    <!--(input คือการเปิดรับข้อมูลเข้า)(type="radio"คือใส่วงกลม)( name="radio-btn"คือชื่อกลุ่มของวงกลม)(radio1 คือชื่อของวงกลมอันแรกโดยเฉพาะ)-->
+            <input type="radio" name="radio-btn" id="radio2">    <!--ใส่วงกลมลงในบลอ็ค ใส่ความเฉพาะเจาะจงด้วย id วงกลมนี้โดยปกติจะวางไว้หน้าหัวข้อของข้อความ เพื่อรอคอยให้เม้าส์มากดคลิ๊ก-->
+            <input type="radio" name="radio-btn" id="radio3">    <!--ใส่วงกลมลงในบลอ็ค (ซึ่งวงกลมทั้ง5นี้ยังอยู่ใน class slides)-->
+            <input type="radio" name="radio-btn" id="radio4">    <!--ใส่วงกลมลงในบลอ็ค-->
+            <input type="radio" name="radio-btn" id="radio5">    <!--ใส่วงกลมลงในบลอ็ค-->
+            
+            <div class="slide first">                                     <!--ใส่รูปภาพลงในหน้าเว็บภายใต้ class เดียวกันกับ input type="radio"-->
+                <img src="Backound Image/business-g9c.jpg" alt="">        <!--slide first มีเพียง class เดียว และการตั้งชื่อ class นี้มีการเว้นวรรค จึงหมายความว่ามี class ย่อยอีก classนึง ใน class slide, แต่slideมี 4 class--> 
+            </div>                                                       
+            <div class="slide">
+                <img src="Backound Image/source-g9b2211f6b.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="Backound Image/driver-stepper-1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="Backound Image/security-1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="Backound Image/industrial-2.jpg" alt="">
+            </div>
+          
+            <div class="navigation-auto">             <!--สร้างฟังก์ชันนำทางแบบอัตโนมัติลงใน class เดียวกับรูปภาพ โดยจะไม่เห็นองค์ประกอบในหน้าเว็บ-->
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+            </div>
+        </div>
+
+        <div class="navigation-manual">                           <!--สร้างฟังก์ชันนำทางแบบ manual ลงใน class เดียวกับรูปภาพ โดยจะไม่เห็นองค์ประกอปในหน้าเว็บ-->
+            <label for="radio1" class="manual-btn"></label>       <!--เอาวงกลมทั้ง 5 มาติด label แล้วใส่ไว้ใน class menual-btn-->
+            <label for="radio2" class="manual-btn"></label>       <!--class นี้เป็น class สร้าง label และ label อยู่ใน class navigation-manual --> 
+            <label for="radio3" class="manual-btn"></label>       <!--แต่ radio id ทั้งหมดอยู่ใน class manual-->
+            <label for="radio4" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label>
+        </div> 
+    
+    <script type="text/javascript">
+            var counter = 1;
+            var bslide = 0;
+            setInterval(function(){      /*setInterval(function() ใช้เพื่อกำหนดให้โปรแกรมทำงานเป็นระยะตามช่วงเวลาที่กำหนด */
+                
+                document.getElementsByClassName('manual-btn' + bslide).checked = true;
+                   console.log(['manual-btn']);
+                if(bslide == counter){                 
+                    counter +=1;
+                }
+
+                document.getElementById('radio' + counter).checked = true; /*เป็นการประกาศว่าจะเรียกองค์ประกอบ(Id)ที่อยู่ในเอกสาร.Html มาใช้เป็นเงื่อนไขหรืออาร์กิวเม้นให้กับฟังก์ชัน*/
+                counter++;                    /*(+)หมายถึงพร้อมกัน ด้วยกัน*/     /*ของ javascipt และลำดับการทำงานของ (id radio)จะถูกบังคับให้ตรงกับตัวเลขที่ counter */ 
+                if(counter > 5){                                           /*('radio' + counter).checked มีความหมายว่า id radio กับ var counterมีการเปลี่ยนแปลงทั้งคู่หรือปล่าว ถ้ามีการเปลี่ยนแปลงทั้งคู่จะได้ค๋า true ออกมาจากฟังก็ชัน */
+                    counter = 1;                                           /*แล้วนำมาเปลียบเทียบกับเงื่อนไข = true จะเป็นจริง โปรแกรมจึงเข้าฟังก์ชัน if ต่อไป */
+                    /*ต้องใส่การตรวจสอบไว้ที่บรรทัดนี้เพื่อหยุดฟังก็ชั่นไว้ช้่วคราวขณะที่ mouce ชี้ไปที่ปุ่มที่เลือก*/
+                    /*และต้องใส่การตรวจสอบบว่าค่า radioปัจจุบันตรงกับ mouceที่ชี้ปุ่มหรือปล่าว*/
+                }           
+            }, 15000);                   /*<ตัวเลข 10000 ถ้ามีค่าเพิ่มขึ้นจะทำให้ภาพหยุดอยู่กับที่ได้นานขึ้น*/
+        </script> 
+    </div>
+    <div class="text1-effect">
+       <h2>MECHATRONIC</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+@keyframes fade-inout{
+    0%{ opacity: 0;
+        transform: scale3d(.5, .5, 1);      
+      }
+    100%{ opacity: 1;
+          transform: scale3d(1, 1, 1);
+         }
+}
+.Fadein-out{
+    animation: fade-inout 5s  alternate;
+    font-size: 6em;
+    text-align: center;
+    text-shadow: 2px 2px 2px #333;
+    height: 600px;  /*เป็นความสูงของหน้าจอทั้งหมด*/
+    margin-top: 200px;  /*เป็นระยะห่างจากขอบด้านบน*/
+}

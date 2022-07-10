@@ -1,0 +1,38 @@
+body{
+    background-color: #f5f5f5;
+    margin: 50px;
+    margin: 25px 0 0 0;
+}
+.animatedText {
+    animation: fadeAndScale 3s alternate;
+    transition: 3s;                               /*ทำให้ตัวอักษรลอยอยู่ด้านบนสุด*/
+    text-align: center;
+    color: blueviolet;
+    height: 1000px;
+}
+    
+#main{
+    text-align: center;
+    background-color: #82c1ff;
+    width: 1000px;
+    height: 370px;
+    margin: 0 auto;
+    border-radius: 25px;
+}    
+h1{
+    font-size: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #fff;
+    padding: 90px 0 25px 0;
+    text-shadow: 2px 2px 2px #333;
+}
+@keyframes fadeAndScale{
+    0%{opacity: 0;
+       transform: scale3d( .5, .5, 1);
+    }
+
+    100%{opacity: 0;
+       transform: scale3d( 1, 1, 1);
+    }
+}
